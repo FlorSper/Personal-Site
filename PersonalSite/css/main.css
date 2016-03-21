@@ -1,0 +1,149 @@
+/* Web Fonts -------------------- */
+
+
+
+/* Base Styles -------------------- */
+
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: black;
+    color: #FDFBE7;
+    margin: 0;
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+h1,
+h2 {
+    font-family: 'Six Caps', sans-serif;
+    letter-spacing: 0.10em;
+    color: #FDFBE7; 
+}
+
+ul {
+    margin: 30px 0;
+    list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-right: 25px;
+}
+
+
+img {
+    max-width: 100%;
+    
+}
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 10px;
+  border-top: 5px solid #FDFBE7;
+}
+
+/* Pseudo-classes ------------------ */
+nav a:visited {
+    color: white;
+}
+
+
+/* Main Styles --------------------- */
+
+.main-header {
+    font-size: 3.9375rem;
+    padding-top: 50px;
+    height: 800px;
+    background: linear-gradient(0deg, black, transparent),
+                url('/TutorialProject/media/background.jpg') no-repeat center;
+               
+}
+
+.title {
+    margin: 0;
+    text-shadow: -5px 5px 5px #222;
+}
+
+.sub-title {
+    margin-bottom: 500px;
+    padding-bottom: 0;
+    
+}
+
+.intro h1 {
+    font-size: 3.75rem;
+}
+
+.Profile-pic {
+    border: 5px double #FDFBD7;
+
+}
+
+.secondary-content {
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.links {
+    padding: 5px;
+    margin: 5px;
+}
+
+.links img {
+    width: 25%;
+}
+
+.portfolio-pics {
+    border: 5px double #FDFBD7;
+}
+
+
+/* Layout Styles ------------------ */
+
+.intro, 
+.secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+
+/* Floated Columns ------------------ */
+
+.links,
+.Portfolio {
+    width: 46.5%;
+}
+
+.links {
+    float: left;
+}
+
+.Portfolio {
+    float: right;
+    
+}
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+/* Media Queries -------------------- */
+
